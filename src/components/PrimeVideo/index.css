@@ -1,1 +1,26 @@
 /* Write your CSS here */
+.cont {
+  /* padding: 40px;
+  width: 400px; */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  color: white;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.p {
+  display: flex;
+  border: 1px solid pink;
+  min-width: 150px;
+  flex-wrap: wrap;
+  height: 400px;
+}
+img {
+  width: 200px;
+}
