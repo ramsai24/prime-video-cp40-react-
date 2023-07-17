@@ -10,14 +10,7 @@ const MovieItem = props => {
 
   return (
     <div>
-      <Popup
-        modal
-        trigger={
-          <button type="button">
-            <img src={item.thumbnailUrl} alt="thumbnail" />
-          </button>
-        }
-      >
+      <Popup modal trigger={<img src={item.thumbnailUrl} alt="thumbnail" />}>
         {close => (
           <div className="popup-container">
             <button
@@ -30,7 +23,7 @@ const MovieItem = props => {
             </button>
 
             <div>
-              <ReactPlayer url={item.videoUrl} />
+              <ReactPlayer url={item.videoUrl} controls />
             </div>
 
             {/* <p>{item.id}</p> */}

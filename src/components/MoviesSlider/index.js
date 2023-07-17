@@ -7,7 +7,7 @@ import MovieItem from '../MovieItem'
 const MoviesSlider = props => {
   const {data} = props
   const settings = {
-    slidesToShow: 3,
+    slidesToShow: 4,
   }
   return (
     <div>
